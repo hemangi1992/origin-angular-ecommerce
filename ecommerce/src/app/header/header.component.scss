@@ -1,0 +1,68 @@
+/* General container styling */
+.container-fluid {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  }
+  
+  /* Logo styling */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .search-bar-input input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+  }
+  
+  .search-bar-input button {
+    border-radius: 50%;
+    color: #6c757d;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar-input button:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Login styling */
+  .login {
+    display: flex;
+    align-items: center;
+  }
+  
+  app-login {
+    display: inline-block;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .logo-img {
+      height: 40px;
+    }
+    
+    .search-bar {
+      min-width: 150px;
+    }
+  
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+  
