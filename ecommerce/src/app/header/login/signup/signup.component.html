@@ -1,0 +1,54 @@
+<app-header></app-header>
+<div class="container d-flex justify-content-center align-items-center vh-80">
+  <div class="form-box bg-white rounded p-5 shadow">
+    <!-- Form Header -->
+     <form [formGroup]="userSignupForm" (ngSubmit)="onSubmitSignupForm()">
+    <h2 class="text-center mb-4">Sign up</h2>
+    
+    <!-- Firstname input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="firstname">First Name</label>
+      <input type="text" formControlName="firstname" id="firstname" class="form-control" placeholder="First Name" />
+      <div *ngIf="userSignupForm.get('firstname')?.touched && userSignupForm.get('firstname')?.invalid" class="text-danger">
+        <small *ngIf="userSignupForm.get('firstname')!.errors?.['required']">Firstname is required.</small>
+        </div>
+    </div>
+
+    <!-- Last input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="lastname">Last Name</label>
+      <input type="text" formControlName="lastname" id="lastname" class="form-control" placeholder="Last Name" />
+      <div *ngIf="userSignupForm.get('lastname')?.touched && userSignupForm.get('lastname')?.invalid" class="text-danger">
+        <small *ngIf="userSignupForm.get('lastname')!.errors?.['required']">Lastname is required.</small>
+        </div>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="emailInput">Email Address</label>
+      <input type="email" formControlName="email" id="emailInput" class="form-control" placeholder="Enter your email" />
+      <div *ngIf="userSignupForm.get('email')?.touched && userSignupForm.get('email')?.invalid" class="text-danger">
+        <small *ngIf="userSignupForm.get('email')!.errors?.['required']">Lastname is required.</small>
+        </div>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="passwordInput">Password</label>
+      <input type="password" formControlName="password" id="passwordInput" class="form-control" placeholder="Enter your password" />
+      <div *ngIf="userSignupForm.get('password')!.touched && userSignupForm.get('password')!.invalid" class="text-danger">
+        <small *ngIf="userSignupForm.get('password')!.errors?.['required']">Password is required.</small>
+        <small *ngIf="userSignupForm.get('password')!.hasError('invalidPassword')">
+          Password must be at least 6 characters long. Password must contain at least one uppercase letter and one special
+          character.
+        </small>
+      </div>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-lg w-100">Sign up</button>
+
+    
+</form>
+  </div>
+</div>

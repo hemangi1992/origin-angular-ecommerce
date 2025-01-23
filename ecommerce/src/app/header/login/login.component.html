@@ -1,5 +1,5 @@
 <button mat-raised-button [matMenuTriggerFor]="menu" (click)="userLogin()">Login</button>
 <mat-menu #menu="matMenu">
-    <button mat-menu-item>New Customer? <button mat-button color="primary">Sign up</button></button>
+    <button mat-menu-item>New Customer? <button mat-button color="primary" (click)="userSignup()">Sign up</button></button>
     <button mat-menu-item>My profile</button>
 </mat-menu>

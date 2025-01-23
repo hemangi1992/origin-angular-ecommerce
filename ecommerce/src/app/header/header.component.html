@@ -1,21 +1,27 @@
 <div class="container-fluid">
-    <div class="row align-items-center justify-content-between py-3">
-      <!-- Logo Section -->
-      <div class="col-auto logo d-flex align-items-center">
-        <img src="../../assets/images/logo.svg" alt="logo" class="logo-img" />
-        <div class="search-bar ms-3">
-          <mat-form-field class="search-bar-input">
-            <input matInput type="search" placeholder="Search...">
-            <button matSuffix mat-icon-button aria-label="Search">
-              <mat-icon>search</mat-icon>
-            </button>
-          </mat-form-field>
+  <header class="row align-items-center justify-content-between py-3">
+    <!-- Logo and Search Section -->
+    <div class="col-auto d-flex align-items-center">
+      <!-- Logo -->
+      <a href="/" class="d-flex align-items-center">
+        <img src="../../assets/images/logo.svg" alt="Brand Logo" class="logo-img" />
+      </a>
+      <!-- Search Bar -->
+      <div class="search-bar ms-3">
+        <div class="input-group">
+          <input type="search" class="form-control" placeholder="Search for products, brands, and more" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="button" aria-label="Search Button">
+            
+              <i class="bi bi-search"></i>
+            
+          </button>
         </div>
       </div>
-      <!-- Login Section -->
-      <div class="col login">
-        <app-login></app-login>
-      </div>
     </div>
-  </div>
-  
+
+    <!-- Login Section -->
+    <div class="col-5">
+      <app-login></app-login>
+    </div>
+  </header>
+</div>
