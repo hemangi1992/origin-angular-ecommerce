@@ -1,27 +1,39 @@
 <div class="container-fluid">
   <header class="row align-items-center justify-content-between py-3">
     <!-- Logo and Search Section -->
-    <div class="col-auto d-flex align-items-center">
+    <div class="col-lg-5 col-md-6 d-flex align-items-center">
       <!-- Logo -->
       <a href="/" class="d-flex align-items-center">
-        <img src="../../assets/images/logo.svg" alt="Brand Logo" class="logo-img" />
+        <img src="../../assets/images/logo.svg" alt="Brand Logo" class="logo-img" style="height: 40px;">
       </a>
       <!-- Search Bar -->
       <div class="search-bar ms-3">
         <div class="input-group">
-          <input type="search" class="form-control" placeholder="Search for products, brands, and more" aria-label="Search">
-          <button class="btn btn-outline-secondary" type="button" aria-label="Search Button">
-            
-              <i class="bi bi-search"></i>
-            
+          <input 
+            type="search" 
+            class="form-control" 
+            placeholder="Search for products, brands, and more" 
+            aria-label="Search">
+          <button 
+            class="btn btn-outline-secondary" 
+            type="button" 
+            aria-label="Search Button">
+            <i class="bi bi-search"></i>
           </button>
         </div>
       </div>
     </div>
 
     <!-- Login Section -->
-    <div class="col-5">
+    <div class="col-lg-2 col-md-3 text-center">
       <app-login></app-login>
+    </div>
+
+    <!-- Cart Section -->
+    <div class="col-lg-2 col-md-3 text-end">
+      <a href="/cart" class="text-decoration-none text-dark">
+        <i class="bi bi-cart4"></i> Cart
+      </a>
     </div>
   </header>
 </div>

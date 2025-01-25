@@ -9,12 +9,25 @@
     <div class="form-outline mb-4">
       <label class="form-label" for="emailInput">Email Address</label>
       <input type="email" formControlName="email" id="emailInput" class="form-control" placeholder="Enter your email" />
+      <div *ngIf="userLoginForm.get('email')!.touched && userLoginForm.get('email')!.invalid" class="text-danger">
+      <small *ngIf="userLoginForm.get('email')!.errors?.['required']">
+        Email is required.
+      </small>
+    </div>
     </div>
 
     <!-- Password input -->
     <div class="form-outline mb-4">
       <label class="form-label" for="passwordInput">Password</label>
       <input type="password" formControlName="password" id="passwordInput" class="form-control" placeholder="Enter your password" />
+      <div *ngIf="userLoginForm.get('password')!.touched && userLoginForm.get('password')!.invalid" class="text-danger">
+        <small *ngIf="userLoginForm.get('password')!.errors?.['required']">
+          Password is required.
+        </small>
+        <small *ngIf="!isCorrectUserDetails">
+          Password is incorrect.
+        </small>
+      </div>
     </div>
 
     <!-- Submit button -->
@@ -22,7 +35,7 @@
 
     <!-- Register link -->
     <div class="text-center mt-4">
-      <p>Not a member? <a href="#!" class="text-decoration-none">Register</a></p>
+      <p>Not a member? <a routerLink="/new-user" class="text-decoration-none">Register</a></p>
     </div>
 </form>
   </div>

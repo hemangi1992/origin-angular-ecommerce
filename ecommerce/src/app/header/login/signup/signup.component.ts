@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, AsyncValidatorFn, FormBuilder, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { delay, Observable, of } from 'rxjs';
 
 @Component({
@@ -11,7 +12,7 @@ export class SignupComponent implements OnInit {
 
    userSignupForm!: FormGroup;
   
-    constructor(private fb: FormBuilder) {
+    constructor(private fb: FormBuilder, private router: Router) {
     this.userSignupForm = this.fb.group({
       firstname: ['', Validators.required],
       lastname: ['', Validators.required],
@@ -33,6 +34,7 @@ export class SignupComponent implements OnInit {
     onSubmitSignupForm() {
       console.log('user details: ', this.userSignupForm.value);
       localStorage.setItem('userDetails', JSON.stringify(this.userSignupForm.value));
+      this.router.navigateByUrl('user-login');
       this.userSignupForm.reset();
     }
 

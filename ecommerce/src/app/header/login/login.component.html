@@ -1,5 +1,16 @@
-<button mat-raised-button [matMenuTriggerFor]="menu" (click)="userLogin()">Login</button>
-<mat-menu #menu="matMenu">
-    <button mat-menu-item>New Customer? <button mat-button color="primary" (click)="userSignup()">Sign up</button></button>
-    <button mat-menu-item>My profile</button>
-</mat-menu>
+<div class="container">
+    <div *ngIf="!isUserLogin">
+        <button mat-raised-button [matMenuTriggerFor]="loginmenu" (click)="userLogin()">Login</button>
+        <mat-menu #loginmenu="matMenu">
+            <button mat-menu-item>New Customer? <button mat-button color="primary" (click)="userSignup()">Sign
+                    up</button></button>
+        </mat-menu>
+    </div>
+    <div *ngIf="isUserLogin">
+        <button mat-raised-button [matMenuTriggerFor]="usermenu"><span><i class="bi bi-emoji-smile-fill"></i></span> {{userLoginName}}</button>
+        <mat-menu #usermenu="matMenu">
+            <button mat-menu-item><span><i class="bi bi-emoji-smile"></i></span> Profile</button>
+            <button mat-menu-item (click)="logout()"><span></span>Logout</button>
+        </mat-menu>
+    </div>
+</div>

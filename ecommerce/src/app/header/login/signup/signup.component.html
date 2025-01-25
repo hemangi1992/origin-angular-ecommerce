@@ -28,7 +28,7 @@
       <label class="form-label" for="emailInput">Email Address</label>
       <input type="email" formControlName="email" id="emailInput" class="form-control" placeholder="Enter your email" />
       <div *ngIf="userSignupForm.get('email')?.touched && userSignupForm.get('email')?.invalid" class="text-danger">
-        <small *ngIf="userSignupForm.get('email')!.errors?.['required']">Lastname is required.</small>
+        <small *ngIf="userSignupForm.get('email')!.errors?.['required']">Email is required.</small>
         </div>
     </div>
 
