@@ -1,0 +1,36 @@
+.filter-box {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    // border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    right: 35%;
+  }
+
+  .mobile-box {
+    width: 990px;
+    height: 500px;
+    background-color: #ffffff;
+    // border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 1%;
+  }
+
+  .category-box {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    // text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }

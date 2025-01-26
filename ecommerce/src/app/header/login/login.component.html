@@ -10,7 +10,9 @@
         <button mat-raised-button [matMenuTriggerFor]="usermenu"><span><i class="bi bi-emoji-smile-fill"></i></span> {{userLoginName}}</button>
         <mat-menu #usermenu="matMenu">
             <button mat-menu-item><span><i class="bi bi-emoji-smile"></i></span> Profile</button>
-            <button mat-menu-item (click)="logout()"><span></span>Logout</button>
+            <button mat-menu-item><span><i class="bi bi-box-seam"></i></span> Orders</button>
+            <button mat-menu-item><span><i class="bi bi-heart"></i></span> Whishlist</button>
+            <button mat-menu-item (click)="logout()"><span><i class="bi bi-arrow-bar-right"></i></span> Logout</button>
         </mat-menu>
     </div>
 </div>

@@ -1,0 +1,327 @@
+{
+    "mobiles": [
+      {
+        "id": 1,
+        "brand": "Apple",
+        "model": "iPhone 14 Pro",
+        "price": 1199,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.1-inch Super Retina XDR",
+          "processor": "A16 Bionic",
+          "ram": "6 GB",
+          "storage": ["128 GB", "256 GB", "512 GB", "1 TB"],
+          "camera": {
+            "rear": "48 MP + 12 MP + 12 MP",
+            "front": "12 MP"
+          },
+          "battery": "3200 mAh",
+          "os": "iOS 16",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.8,
+        "images": ["https://example.com/images/iphone14pro-front.jpg"]
+      },
+      {
+        "id": 2,
+        "brand": "Samsung",
+        "model": "Galaxy S23 Ultra",
+        "price": 1199,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.8-inch AMOLED 2X",
+          "processor": "Snapdragon 8 Gen 2",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB", "1 TB"],
+          "camera": {
+            "rear": "200 MP + 10 MP + 10 MP + 12 MP",
+            "front": "12 MP"
+          },
+          "battery": "5000 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "Limited Stock",
+        "ratings": 4.7,
+        "images": ["https://example.com/images/galaxys23ultra-front.jpg"]
+      },
+      {
+        "id": 3,
+        "brand": "Google",
+        "model": "Pixel 8 Pro",
+        "price": 999,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.7-inch LTPO OLED",
+          "processor": "Google Tensor G3",
+          "ram": "12 GB",
+          "storage": ["128 GB", "256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 48 MP + 12 MP",
+            "front": "11 MP"
+          },
+          "battery": "4950 mAh",
+          "os": "Android 14",
+          "network": "5G"
+        },
+        "availability": "Pre-Order",
+        "ratings": 4.6,
+        "images": ["https://example.com/images/pixel8pro-front.jpg"]
+      },
+      {
+        "id": 4,
+        "brand": "OnePlus",
+        "model": "11 Pro",
+        "price": 799,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.7-inch AMOLED",
+          "processor": "Snapdragon 8 Gen 2",
+          "ram": "16 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 48 MP + 32 MP",
+            "front": "16 MP"
+          },
+          "battery": "5000 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.5,
+        "images": ["https://example.com/images/oneplus11pro-front.jpg"]
+      },
+      {
+        "id": 5,
+        "brand": "Xiaomi",
+        "model": "13 Ultra",
+        "price": 899,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.73-inch AMOLED",
+          "processor": "Snapdragon 8 Gen 2",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB", "1 TB"],
+          "camera": {
+            "rear": "50 MP + 50 MP + 50 MP + 50 MP",
+            "front": "32 MP"
+          },
+          "battery": "5000 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.4,
+        "images": ["https://example.com/images/xiaomi13ultra-front.jpg"]
+      },
+      {
+        "id": 6,
+        "brand": "Apple",
+        "model": "iPhone 13 Mini",
+        "price": 699,
+        "currency": "USD",
+        "specifications": {
+          "display": "5.4-inch Super Retina XDR",
+          "processor": "A15 Bionic",
+          "ram": "4 GB",
+          "storage": ["128 GB", "256 GB", "512 GB"],
+          "camera": {
+            "rear": "12 MP + 12 MP",
+            "front": "12 MP"
+          },
+          "battery": "2406 mAh",
+          "os": "iOS 15",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.6,
+        "images": ["https://example.com/images/iphone13mini-front.jpg"]
+      },
+      {
+        "id": 7,
+        "brand": "Samsung",
+        "model": "Galaxy Z Flip 5",
+        "price": 999,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.7-inch Foldable AMOLED",
+          "processor": "Snapdragon 8 Gen 2",
+          "ram": "8 GB",
+          "storage": ["128 GB", "256 GB"],
+          "camera": {
+            "rear": "12 MP + 12 MP",
+            "front": "10 MP"
+          },
+          "battery": "3700 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "Pre-Order",
+        "ratings": 4.5,
+        "images": ["https://example.com/images/galaxyzflip5-front.jpg"]
+      },
+      {
+        "id": 8,
+        "brand": "Google",
+        "model": "Pixel 7",
+        "price": 599,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.3-inch AMOLED",
+          "processor": "Google Tensor G2",
+          "ram": "8 GB",
+          "storage": ["128 GB", "256 GB"],
+          "camera": {
+            "rear": "50 MP + 12 MP",
+            "front": "10.8 MP"
+          },
+          "battery": "4355 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.6,
+        "images": ["https://example.com/images/pixel7-front.jpg"]
+      },
+      {
+        "id": 9,
+        "brand": "Realme",
+        "model": "GT 3",
+        "price": 699,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.74-inch AMOLED",
+          "processor": "Snapdragon 8+ Gen 1",
+          "ram": "16 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 8 MP + 2 MP",
+            "front": "16 MP"
+          },
+          "battery": "4600 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.4,
+        "images": ["https://example.com/images/realmegt3-front.jpg"]
+      },
+      {
+        "id": 10,
+        "brand": "Vivo",
+        "model": "X90 Pro",
+        "price": 1199,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.78-inch AMOLED",
+          "processor": "MediaTek Dimensity 9200",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 50 MP + 12 MP",
+            "front": "32 MP"
+          },
+          "battery": "4870 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "Limited Stock",
+        "ratings": 4.7,
+        "images": ["https://example.com/images/vivox90pro-front.jpg"]
+      },
+      {
+        "id": 11,
+        "brand": "Oppo",
+        "model": "Find X5 Pro",
+        "price": 1049,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.7-inch AMOLED",
+          "processor": "Snapdragon 8 Gen 1",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 50 MP + 13 MP",
+            "front": "32 MP"
+          },
+          "battery": "5000 mAh",
+          "os": "Android 12",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.6,
+        "images": ["https://example.com/images/oppofindx5pro-front.jpg"]
+      },
+      {
+        "id": 12,
+        "brand": "Motorola",
+        "model": "Edge 40 Pro",
+        "price": 899,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.67-inch OLED",
+          "processor": "Snapdragon 8 Gen 2",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 50 MP + 12 MP",
+            "front": "60 MP"
+          },
+          "battery": "4600 mAh",
+          "os": "Android 13",
+          "network": "5G"
+        },
+        "availability": "In Stock",
+        "ratings": 4.5,
+        "images": ["https://example.com/images/motorolaedge40pro-front.jpg"]
+      },
+      {
+        "id": 13,
+        "brand": "Sony",
+        "model": "Xperia 1 IV",
+        "price": 1299,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.5-inch OLED",
+          "processor": "Snapdragon 8 Gen 1",
+          "ram": "12 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "12 MP + 12 MP + 12 MP",
+            "front": "8 MP"
+          },
+          "battery": "5000 mAh",
+          "os": "Android 12",
+          "network": "5G"
+        },
+        "availability": "Limited Stock",
+        "ratings": 4.8,
+        "images": ["https://example.com/images/sonyxperia1iv-front.jpg"]
+      },
+      {
+        "id": 14,
+        "brand": "Huawei",
+        "model": "P50 Pro",
+        "price": 1099,
+        "currency": "USD",
+        "specifications": {
+          "display": "6.6-inch OLED",
+          "processor": "Kirin 9000",
+          "ram": "8 GB",
+          "storage": ["256 GB", "512 GB"],
+          "camera": {
+            "rear": "50 MP + 64 MP + 13 MP",
+            "front": "13 MP"
+          },
+          "battery": "4360 mAh",
+          "os": "HarmonyOS",
+          "network": "5G"
+        },
+        "availability": "Pre-Order",
+        "ratings": 4.7,
+        "images": ["https://example.com/images/huaweip50pro-front.jpg"]
+      }
+    ]
+  }
+  

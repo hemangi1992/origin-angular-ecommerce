@@ -19,6 +19,11 @@ import { MatMenuModule } from '@angular/material/menu';
 import { UserLoginComponent } from './header/login/user-login/user-login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginService } from 'src/app/header/login/login.service';
+import { ProductsComponent } from './products/products.component';
+import { MobileComponent } from './products/mobile/mobile.component';
+import { FashionComponent } from './products/fashion/fashion.component';
+import { ElectronicsComponent } from './products/electronics/electronics.component';
+import { HomeFurnitureComponent } from './products/home-furniture/home-furniture.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { LoginService } from 'src/app/header/login/login.service';
     HeaderComponent,
     LoginComponent,
     UserLoginComponent,
-    SignupComponent
+    SignupComponent,
+    ProductsComponent,
+    MobileComponent,
+    FashionComponent,
+    ElectronicsComponent,
+    HomeFurnitureComponent
   ],
   imports: [
     BrowserModule,

@@ -35,7 +35,7 @@ export class UserLoginComponent implements OnInit {
     if (this.userLoginForm.value.email === userDetails.email && this.userLoginForm.value.password === userDetails.password) {
       this.isCorrectUserDetails = !this.isCorrectUserDetails;
       this.loginService.userName.next(userDetails.firstname);
-      this.router.navigateByUrl('');
+      this.router.navigateByUrl('products');
     } else {
       this.isCorrectUserDetails = !this.isCorrectUserDetails;
     }
