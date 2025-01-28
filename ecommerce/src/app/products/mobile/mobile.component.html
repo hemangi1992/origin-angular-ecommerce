@@ -3,15 +3,51 @@
 <div class="filter-box mt-3 mx-auto">
     <div class="container d-flex">
         <div class="row g-3">
-            
+            <app-filters></app-filters>
         </div>
     </div>
 </div>
-<div class="mobile-box mt-3 mx-auto">
-    <div class="container d-flex">
+<div class="mobile-box mx-auto">
+    <div class="container d-flex divider" *ngFor="let data of mobileData">
         <div class="row g-3">
-            
+            <div class="col-auto">
+                <div class="category-box">
+                    <a href="/" class="d-flex align-items-center" routerLink="/mobile-store">
+                        <img src="../../assets/images/mobile.webp" alt="Mobile store" style="height: 60px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="details-box">
+                    <h2>{{data.brand}}</h2>
+                    <div class="rating-box mt-0"><p class="rating-text">{{data.ratings}}</p><i class="bi bi-star-fill rating-star"></i></div>
+                    <div class="details-box mt-2">
+                        <ul>
+                            <li>{{data.specifications.display}}</li>
+                            <li>{{data.specifications.processor}}</li>
+                            <li>{{data.specifications.ram}}</li>
+                            <li>{{data.specifications.battery}} Battery</li>
+                            <li>{{data.specifications.os}}</li>
+                            <li>{{data.specifications.network}}</li>
+                            <li>{{data.specifications.camera.rear}} | {{data.specifications.camera.front}} Front Camera</li>
+                            <li>
+                                <span *ngFor="let storage of data.specifications.storage">
+                                    {{storage}} |
+                                </span>
+                            </li>
+                            <li>{{data.warranty}}</li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="price-box">
+                    <h2><strong>{{data.price}}</strong></h2>
+                    <button mat-raised-button>Add To Cart</button>
+                </div>
+            </div>
         </div>
     </div>
+    
 </div>
 </div>

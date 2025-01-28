@@ -20,8 +20,9 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.8,
-        "images": ["https://example.com/images/iphone14pro-front.jpg"]
+        "images": ["../../assets/images/mobile-image.avif"]
       },
       {
         "id": 2,
@@ -43,6 +44,7 @@
           "network": "5G"
         },
         "availability": "Limited Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.7,
         "images": ["https://example.com/images/galaxys23ultra-front.jpg"]
       },
@@ -66,6 +68,7 @@
           "network": "5G"
         },
         "availability": "Pre-Order",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.6,
         "images": ["https://example.com/images/pixel8pro-front.jpg"]
       },
@@ -89,6 +92,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.5,
         "images": ["https://example.com/images/oneplus11pro-front.jpg"]
       },
@@ -112,6 +116,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.4,
         "images": ["https://example.com/images/xiaomi13ultra-front.jpg"]
       },
@@ -135,6 +140,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.6,
         "images": ["https://example.com/images/iphone13mini-front.jpg"]
       },
@@ -158,6 +164,7 @@
           "network": "5G"
         },
         "availability": "Pre-Order",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.5,
         "images": ["https://example.com/images/galaxyzflip5-front.jpg"]
       },
@@ -181,6 +188,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.6,
         "images": ["https://example.com/images/pixel7-front.jpg"]
       },
@@ -204,6 +212,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.4,
         "images": ["https://example.com/images/realmegt3-front.jpg"]
       },
@@ -250,6 +259,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.6,
         "images": ["https://example.com/images/oppofindx5pro-front.jpg"]
       },
@@ -273,6 +283,7 @@
           "network": "5G"
         },
         "availability": "In Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.5,
         "images": ["https://example.com/images/motorolaedge40pro-front.jpg"]
       },
@@ -296,6 +307,7 @@
           "network": "5G"
         },
         "availability": "Limited Stock",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.8,
         "images": ["https://example.com/images/sonyxperia1iv-front.jpg"]
       },
@@ -319,6 +331,7 @@
           "network": "5G"
         },
         "availability": "Pre-Order",
+        "warranty": "1 Year on Handset and 6 Months on Accessories",
         "ratings": 4.7,
         "images": ["https://example.com/images/huaweip50pro-front.jpg"]
       }

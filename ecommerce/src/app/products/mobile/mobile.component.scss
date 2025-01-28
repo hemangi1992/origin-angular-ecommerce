@@ -11,7 +11,7 @@
 
   .mobile-box {
     width: 990px;
-    height: 500px;
+    height: auto;
     background-color: #ffffff;
     // border-radius: 16px;
     padding: 30px;
@@ -25,12 +25,66 @@
     flex-direction: column;
     // align-items: center;
     // justify-content: center;
-    height: 400px;
-    width: 400px;
-    background-color: #e9ecef;
-    border-radius: 8px;
+    height: 200px;
+    width: 300px;
+    // background-color: #e9ecef;
+    // border-radius: 8px;
     // text-align: center;
     font-weight: bold;
     transition: transform 0.3s ease;
     cursor: pointer;
+  }
+  .details-box {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    height: auto;
+    width: 400px;
+    // background-color: #e9ecef;
+    // border-radius: 8px;
+    // text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .price-box {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    height: 200px;
+    width: 170px;
+    // background-color: #e9ecef;
+    // border-radius: 8px;
+    // text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .rating-box {
+    display: flex;
+    height: 20px;
+    width: 50px;
+    background-color: green;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #e9ecef;
+  }
+
+  .rating-text {
+    margin-left: 8px;
+  }
+
+  .rating-star {
+    margin-left: 2px;
+  }
+
+  h2 {
+    margin-left: 8px;
+  }
+  
+  .divider {
+    border-bottom: 2px solid #F8F9FA;
   }

@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatDividerModule } from '@angular/material/divider';
 import { UserLoginComponent } from './header/login/user-login/user-login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginService } from 'src/app/header/login/login.service';
@@ -24,6 +25,8 @@ import { MobileComponent } from './products/mobile/mobile.component';
 import { FashionComponent } from './products/fashion/fashion.component';
 import { ElectronicsComponent } from './products/electronics/electronics.component';
 import { HomeFurnitureComponent } from './products/home-furniture/home-furniture.component';
+import { FiltersComponent } from './filters/filters.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,8 @@ import { HomeFurnitureComponent } from './products/home-furniture/home-furniture
     MobileComponent,
     FashionComponent,
     ElectronicsComponent,
-    HomeFurnitureComponent
+    HomeFurnitureComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { HomeFurnitureComponent } from './products/home-furniture/home-furniture
     MatFormFieldModule,
     MatIconModule,
     MatInputModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule,
+    MatDividerModule
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]
