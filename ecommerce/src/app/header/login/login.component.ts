@@ -46,5 +46,6 @@ export class LoginComponent implements OnInit {
   logout() {
     this.isUserLogin = false;
     this.router.navigateByUrl('');
+    localStorage.clear();
   }
 }
